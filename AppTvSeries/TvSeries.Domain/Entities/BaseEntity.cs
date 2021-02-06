@@ -1,6 +1,6 @@
 using System;
 
-namespace Domain.TvSeries.Entities
+namespace TvSeries.Domain.Entities
 {
     public abstract class BaseEntity
     {

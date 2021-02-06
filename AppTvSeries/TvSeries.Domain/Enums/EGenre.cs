@@ -1,4 +1,4 @@
-namespace Domain.TvSeries.Enums
+namespace TvSeries.Domain.Enums
 {
     public enum EGenre
     {

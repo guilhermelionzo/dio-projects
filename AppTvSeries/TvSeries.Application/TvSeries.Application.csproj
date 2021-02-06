@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain.TvSeries\Domain.TvSeries.csproj" />
+    <ProjectReference Include="..\TvSeries.Domain\TvSeries.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

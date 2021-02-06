@@ -1,7 +1,7 @@
 using System;
-using Domain.TvSeries.Enums;
+using TvSeries.Domain.Enums;
 
-namespace Domain.TvSeries.Entities
+namespace TvSeries.Domain.Entities
 {
     public class Series : BaseEntity
     {

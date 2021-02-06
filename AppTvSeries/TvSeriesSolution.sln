@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{43681A8D-23FE-4AB4-8EC3-FD5B78217E62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvSeries.Application", "TvSeries.Application\TvSeries.Application.csproj", "{43681A8D-23FE-4AB4-8EC3-FD5B78217E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.TvSeries", "Domain.TvSeries\Domain.TvSeries.csproj", "{72E24470-5BF9-4ED8-B040-5916FB639180}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvSeries.Domain", "TvSeries.Domain\TvSeries.Domain.csproj", "{72E24470-5BF9-4ED8-B040-5916FB639180}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
