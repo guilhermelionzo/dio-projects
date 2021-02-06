@@ -1,6 +1,6 @@
 namespace TvSeries.Domain.Enums
 {
-    public enum EGenre
+    public enum EGender
     {
         NotSpecified = 0,
         Action,

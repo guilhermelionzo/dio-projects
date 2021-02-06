@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TvSeries.Domain\TvSeries.Domain.csproj" />
+    <ProjectReference Include="..\TvSeries.Domain.Infra\TvSeries.Domain.Infra.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -6,14 +6,14 @@ namespace TvSeries.Domain.Entities
     public class Series : BaseEntity
     {
 
-        public EGenre Genre { get; private set; }
+        public EGender Gender { get; private set; }
         public string Title { get; private set; }
         public string Description { get; private set; }
         public int Year { get; private set; }
 
-        public Series(EGenre genre, string title, string description, int year)
+        public Series(EGender gender, string title, string description, int year)
         {
-            Genre = genre;
+            Gender = gender;
             Title = title;
             Description = description;
             Year = year;
@@ -22,7 +22,7 @@ namespace TvSeries.Domain.Entities
         public override string ToString()
         {
             string ret = "";
-            ret += $"Genre: {Genre + Environment.NewLine}";
+            ret += $"Gender: {Gender + Environment.NewLine}";
             ret += $"Title: {Title + Environment.NewLine}";
             ret += $"Description: {Description + Environment.NewLine}";
             ret += $"Year: {Year + Environment.NewLine}";
@@ -30,10 +30,10 @@ namespace TvSeries.Domain.Entities
             return ret;
         }
 
-        public void SetGenre(EGenre genre)
+        public void SetGender(EGender gender)
         {
-            if (genre == EGenre.NotSpecified) return;
-            Genre = genre;
+            if (gender == EGender.NotSpecified) return;
+            Gender = gender;
         }
         public void SetTitle(string title)
         {
